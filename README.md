@@ -96,6 +96,8 @@ In addition to basic face settings, cyberpunk-theme has specially-tailored suppo
 * rainbow-delimiters
 * wanderlust\*
 * whitespace-mode\*
+* ivy/counsel/swiper
+* diredfl
  
 User Customizations
 ===================
