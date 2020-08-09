@@ -857,6 +857,17 @@
 
    ;; ivy
    `(ivy-current-match ((,class (:box (:line-width 3 :color ,cyberpunk-magenta :style pressed-button) :weight bold))))
+   `(ivy-minibuffer-match-face-1 ((,class (:background ,cyberpunk-yellow :foreground ,cyberpunk-black))))
+   `(ivy-minibuffer-match-face-2 ((,class (:background ,cyberpunk-pink-1 :foreground ,cyberpunk-black))))
+   `(ivy-minibuffer-match-face-3 ((,class (:foreground ,cyberpunk-pink-2))))
+   `(ivy-minibuffer-match-face-4 ((,class (:background ,cyberpunk-red-1 :foreground ,cyberpunk-fg))))
+
+   ;; swiper
+   `(swiper-line-face ((,class (:inherit ivy-current-match))))
+   `(swiper-match-face-1 ((,class (:inherit ivy-minibuffer-match-face-1))))
+   `(swiper-match-face-2 ((,class (:inherit ivy-minibuffer-match-face-2))))
+   `(swiper-match-face-3 ((,class (:inherit ivy-minibuffer-match-face-3))))
+   `(swiper-match-face-4 ((,class (:inherit ivy-minibuffer-match-face-4))))
    )
 
   ;;; custom theme variables
