@@ -116,6 +116,7 @@
    `(bold ((,class (:bold t))))
    `(border-glyph ((,class (nil))))
    `(buffers-tab ((,class (:background ,cyberpunk-black-2 :foreground ,cyberpunk-white-2))))
+   `(shadow ((,class (:foreground ,cyberpunk-gray-7))))
 
    ;;; basic coloring
    `(default ((,class (:foreground ,cyberpunk-gray :background ,cyberpunk-black))))
